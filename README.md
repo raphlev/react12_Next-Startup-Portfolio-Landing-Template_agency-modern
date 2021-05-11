@@ -1,8 +1,12 @@
 # Next - Gatsby - Figma template
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped by  [`startuplanding`](https://startuplanding.redq.io).
 
-https://startuplanding.redq.io/
+
+## template integration documentations
+
+https://startuplanding-documentation.vercel.app/
+
 
 ## agency-modern template
 
@@ -30,6 +34,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 ## Deployment
 
 next build && next export  (publiisg folder = out)
+
+https://startuplanding-documentation.vercel.app/analytics
 
 ## Learn More
 
