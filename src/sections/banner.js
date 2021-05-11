@@ -4,6 +4,62 @@ import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
 import BannerImg from 'assets/banner-thumb.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
+import TextFeature from 'components/text-feature';
+
+const data = {
+  subTitle: 'Explorer Other Templates',
+  title: 'More templates in https://startuplanding.redq.io/',
+  features: [
+    {
+      id: 1,
+      subTitle: 'Experience your ultimate mobile application',
+      name: 'Click',
+      url: 'https://react-next-template-app-modern.netlify.app/',
+    },
+    {
+      id: 2,
+      subTitle: 'Coworking space that will feel like home',
+      name: 'Click',
+      url: 'https://react-next-template-saas-modern.netlify.app/',
+    },
+    {
+      id: 3,
+      subTitle: 'Create beautiful landing page in few minutes',
+      name: 'Click',
+      url: 'https://react-next-template-agency-classic.netlify.app/',
+    },
+    {
+      id: 4,
+      subTitle: 'Donate for the smile of orphans face',
+      name: 'Click',
+      url: 'https://react-next-template-online-fundraising.netlify.app/',
+    },
+    {
+      id: 5,
+      subTitle: 'Ultimate support system for leading agencies',
+      name: 'Click',
+      url: 'https://react-next-template-agency-alpha.netlify.app/',
+    },
+    {
+      id: 6,
+      subTitle: 'Built your business with a website',
+      name: 'Click',
+      url: 'https://react-next-template-hosting-provider.netlify.app/',
+    },
+    {
+      id: 7,
+      subTitle: 'Creativity starts with viewing the whole world differently',
+      name: 'Click',
+      url: 'https://react-next-template-startup-agency.netlify.app/',
+    },
+    {
+      id: 8,
+      subTitle: 'hosting-classicSmart',
+      name: 'Click',
+      url: 'https://react-next-template-hosting-classic.netlify.app/',
+    },
+  ],
+};
 
 export default function Banner() {
   return (
@@ -23,6 +79,21 @@ export default function Banner() {
 
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner" />
+        </Box>
+
+        <Box sx={styles.banner.contentBox}>
+          <Heading as="h1" variant="heroPrimary">
+           {data.subTitle}
+          </Heading>
+          <Text as="p" variant="heroSecondary">
+          {data.title}
+          </Text>
+          {data.features.map((item) => (
+            <TextFeature 
+            subTitle={item.subTitle} 
+            btnName={item.name} 
+            btnURL={item.url}  />
+          ))}
         </Box>
       </Container>
     </section>
