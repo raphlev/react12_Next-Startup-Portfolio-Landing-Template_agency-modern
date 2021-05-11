@@ -54,9 +54,9 @@ const data = {
     },
     {
       id: 8,
-      subTitle: 'hosting-classicSmart',
+      subTitle: 'A Creative way to grow your Exciting Business ideas',
       name: 'Click',
-      url: 'https://react-next-template-hosting-classic.netlify.app/',
+      url: 'https://startup-hosting-classic.vercel.app//',
     },
   ],
 };
