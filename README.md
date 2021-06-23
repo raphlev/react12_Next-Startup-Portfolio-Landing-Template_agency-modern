@@ -1,7 +1,11 @@
 # Next - Gatsby - Figma template
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped by  [`startuplanding`](https://startuplanding.redq.io).
+This is a [Next.js](https://nextjs.org/) project bootstrapped by  [`startuplanding`](https://startuplanding.redq.io): 
 
+Collection of absolutely free landing pages built with React, Next JS & Gatsby JS. Every week, we’ll be adding top of the line Startup Landing demos to our collection.
+- See https://startuplanding.redq.io for preview and download of all available templates
+
+This project is using "Agency Modern" portfolio template.
 
 ## template integration documentations
 
